@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 09ffd2629251e594eb84f6618e72d1da
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chess_normal_and_2nd_model_0024:LOD_0
+    100004: Chess_normal_and_2nd_model_0024:Silver_Knight_LOD2
+    100006: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD1
+    100008: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD2
+    100010: Chessboard_LOD
+    100012: chessboard_Model2_LOD0
+    100014: chessboard_Model2_LOD1
+    100016: chessboard_Model2_LOD2
+    100018: Gold_Bishop_LOD
+    100020: Gold_Bishop_LOD0
+    100022: Gold_Bishop_LOD1
+    100024: Gold_Bishop_LOD2
+    100026: Gold_King_LOD
+    100028: Gold_King_LOD0
+    100030: Gold_King_LOD1
+    100032: Gold_King_LOD2
+    100034: Gold_Knight_LOD
+    100036: Gold_Knight_LOD0
+    100038: Gold_Knight_LOD1
+    100040: Gold_Knight_LOD2
+    100042: Gold_Pawn_LOD
+    100044: Gold_Pawn_LOD0
+    100046: Gold_Pawn_LOD1
+    100048: Gold_Pawn_LOD2
+    100050: Gold_Queen_LOD
+    100052: Gold_Queen_LOD0
+    100054: Gold_Queen_LOD1
+    100056: Gold_Queen_LOD2
+    100058: Gold_Rook_LOD
+    100060: Gold_Rook_LOD0
+    100062: Gold_Rook_LOD1
+    100064: Gold_Rook_LOD2
+    100066: LOD_0
+    100068: LOD_0 1
+    100070: LOD_0 10
+    100072: LOD_0 11
+    100074: LOD_0 2
+    100076: LOD_0 3
+    100078: LOD_0 4
+    100080: LOD_0 5
+    100082: LOD_0 6
+    100084: LOD_0 7
+    100086: LOD_0 8
+    100088: LOD_0 9
+    100090: LOD_1
+    100092: LOD_1 1
+    100094: LOD_1 10
+    100096: LOD_1 11
+    100098: LOD_1 12
+    100100: LOD_1 2
+    100102: LOD_1 3
+    100104: LOD_1 4
+    100106: LOD_1 5
+    100108: LOD_1 6
+    100110: LOD_1 7
+    100112: LOD_1 8
+    100114: LOD_1 9
+    100116: LOD_2
+    100118: LOD_2 1
+    100120: LOD_2 10
+    100122: LOD_2 11
+    100124: LOD_2 12
+    100126: LOD_2 2
+    100128: LOD_2 3
+    100130: LOD_2 4
+    100132: LOD_2 5
+    100134: LOD_2 6
+    100136: LOD_2 7
+    100138: LOD_2 8
+    100140: LOD_2 9
+    100142: SIlver_Bishop_LOD
+    100144: Silver_Bishop_LOD0
+    100146: Silver_Bishop_LOD1
+    100148: Silver_Bishop_LOD2
+    100150: SIlver_King_LOD
+    100152: Silver_King_LOD0
+    100154: Silver_King_LOD1
+    100156: Silver_King_LOD2
+    100158: SIlver_Knight_LOD
+    100160: Silver_Knight_LOD0
+    100162: Silver_Knight_LOD1
+    100164: SIlver_Pawn_LOD
+    100166: Silver_Pawn_LOD0
+    100168: Silver_Pawn_LOD1
+    100170: Silver_Pawn_LOD2
+    100172: SIlver_Queen_LOD
+    100174: Silver_Queen_LOD0
+    100176: Silver_Queen_LOD1
+    100178: Silver_Queen_LOD2
+    100180: SIlver_Rook_LOD
+    100182: Silver_Rook_LOD0
+    100184: LOD_0 12
+    400000: //RootNode
+    400002: Chess_normal_and_2nd_model_0024:LOD_0
+    400004: Chess_normal_and_2nd_model_0024:Silver_Knight_LOD2
+    400006: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD1
+    400008: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD2
+    400010: Chessboard_LOD
+    400012: chessboard_Model2_LOD0
+    400014: chessboard_Model2_LOD1
+    400016: chessboard_Model2_LOD2
+    400018: Gold_Bishop_LOD
+    400020: Gold_Bishop_LOD0
+    400022: Gold_Bishop_LOD1
+    400024: Gold_Bishop_LOD2
+    400026: Gold_King_LOD
+    400028: Gold_King_LOD0
+    400030: Gold_King_LOD1
+    400032: Gold_King_LOD2
+    400034: Gold_Knight_LOD
+    400036: Gold_Knight_LOD0
+    400038: Gold_Knight_LOD1
+    400040: Gold_Knight_LOD2
+    400042: Gold_Pawn_LOD
+    400044: Gold_Pawn_LOD0
+    400046: Gold_Pawn_LOD1
+    400048: Gold_Pawn_LOD2
+    400050: Gold_Queen_LOD
+    400052: Gold_Queen_LOD0
+    400054: Gold_Queen_LOD1
+    400056: Gold_Queen_LOD2
+    400058: Gold_Rook_LOD
+    400060: Gold_Rook_LOD0
+    400062: Gold_Rook_LOD1
+    400064: Gold_Rook_LOD2
+    400066: LOD_0
+    400068: LOD_0 1
+    400070: LOD_0 10
+    400072: LOD_0 11
+    400074: LOD_0 2
+    400076: LOD_0 3
+    400078: LOD_0 4
+    400080: LOD_0 5
+    400082: LOD_0 6
+    400084: LOD_0 7
+    400086: LOD_0 8
+    400088: LOD_0 9
+    400090: LOD_1
+    400092: LOD_1 1
+    400094: LOD_1 10
+    400096: LOD_1 11
+    400098: LOD_1 12
+    400100: LOD_1 2
+    400102: LOD_1 3
+    400104: LOD_1 4
+    400106: LOD_1 5
+    400108: LOD_1 6
+    400110: LOD_1 7
+    400112: LOD_1 8
+    400114: LOD_1 9
+    400116: LOD_2
+    400118: LOD_2 1
+    400120: LOD_2 10
+    400122: LOD_2 11
+    400124: LOD_2 12
+    400126: LOD_2 2
+    400128: LOD_2 3
+    400130: LOD_2 4
+    400132: LOD_2 5
+    400134: LOD_2 6
+    400136: LOD_2 7
+    400138: LOD_2 8
+    400140: LOD_2 9
+    400142: SIlver_Bishop_LOD
+    400144: Silver_Bishop_LOD0
+    400146: Silver_Bishop_LOD1
+    400148: Silver_Bishop_LOD2
+    400150: SIlver_King_LOD
+    400152: Silver_King_LOD0
+    400154: Silver_King_LOD1
+    400156: Silver_King_LOD2
+    400158: SIlver_Knight_LOD
+    400160: Silver_Knight_LOD0
+    400162: Silver_Knight_LOD1
+    400164: SIlver_Pawn_LOD
+    400166: Silver_Pawn_LOD0
+    400168: Silver_Pawn_LOD1
+    400170: Silver_Pawn_LOD2
+    400172: SIlver_Queen_LOD
+    400174: Silver_Queen_LOD0
+    400176: Silver_Queen_LOD1
+    400178: Silver_Queen_LOD2
+    400180: SIlver_Rook_LOD
+    400182: Silver_Rook_LOD0
+    400184: LOD_0 12
+    2100000: Gold_chesscoins_LOD0
+    2100002: Gold_Chesscoins_LOD1
+    2100004: Gold_Chesscoins_LOD2
+    2100006: Silver_chesscoins_LOD0
+    2100008: Siver_Chesscoins_LOD1
+    2100010: Silver_Chesscoins_LOD2
+    2300000: Chess_normal_and_2nd_model_0024:Silver_Knight_LOD2
+    2300002: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD1
+    2300004: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD2
+    2300006: chessboard_Model2_LOD0
+    2300008: chessboard_Model2_LOD1
+    2300010: chessboard_Model2_LOD2
+    2300012: Gold_Bishop_LOD0
+    2300014: Gold_Bishop_LOD1
+    2300016: Gold_Bishop_LOD2
+    2300018: Gold_King_LOD0
+    2300020: Gold_King_LOD1
+    2300022: Gold_King_LOD2
+    2300024: Gold_Knight_LOD0
+    2300026: Gold_Knight_LOD1
+    2300028: Gold_Knight_LOD2
+    2300030: Gold_Pawn_LOD0
+    2300032: Gold_Pawn_LOD1
+    2300034: Gold_Pawn_LOD2
+    2300036: Gold_Queen_LOD0
+    2300038: Gold_Queen_LOD1
+    2300040: Gold_Queen_LOD2
+    2300042: Gold_Rook_LOD0
+    2300044: Gold_Rook_LOD1
+    2300046: Gold_Rook_LOD2
+    2300048: Silver_Bishop_LOD0
+    2300050: Silver_Bishop_LOD1
+    2300052: Silver_Bishop_LOD2
+    2300054: Silver_King_LOD0
+    2300056: Silver_King_LOD1
+    2300058: Silver_King_LOD2
+    2300060: Silver_Knight_LOD0
+    2300062: Silver_Knight_LOD1
+    2300064: Silver_Pawn_LOD0
+    2300066: Silver_Pawn_LOD1
+    2300068: Silver_Pawn_LOD2
+    2300070: Silver_Queen_LOD0
+    2300072: Silver_Queen_LOD1
+    2300074: Silver_Queen_LOD2
+    2300076: Silver_Rook_LOD0
+    3300000: Chess_normal_and_2nd_model_0024:Silver_Knight_LOD2
+    3300002: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD1
+    3300004: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD2
+    3300006: chessboard_Model2_LOD0
+    3300008: chessboard_Model2_LOD1
+    3300010: chessboard_Model2_LOD2
+    3300012: Gold_Bishop_LOD0
+    3300014: Gold_Bishop_LOD1
+    3300016: Gold_Bishop_LOD2
+    3300018: Gold_King_LOD0
+    3300020: Gold_King_LOD1
+    3300022: Gold_King_LOD2
+    3300024: Gold_Knight_LOD0
+    3300026: Gold_Knight_LOD1
+    3300028: Gold_Knight_LOD2
+    3300030: Gold_Pawn_LOD0
+    3300032: Gold_Pawn_LOD1
+    3300034: Gold_Pawn_LOD2
+    3300036: Gold_Queen_LOD0
+    3300038: Gold_Queen_LOD1
+    3300040: Gold_Queen_LOD2
+    3300042: Gold_Rook_LOD0
+    3300044: Gold_Rook_LOD1
+    3300046: Gold_Rook_LOD2
+    3300048: Silver_Bishop_LOD0
+    3300050: Silver_Bishop_LOD1
+    3300052: Silver_Bishop_LOD2
+    3300054: Silver_King_LOD0
+    3300056: Silver_King_LOD1
+    3300058: Silver_King_LOD2
+    3300060: Silver_Knight_LOD0
+    3300062: Silver_Knight_LOD1
+    3300064: Silver_Pawn_LOD0
+    3300066: Silver_Pawn_LOD1
+    3300068: Silver_Pawn_LOD2
+    3300070: Silver_Queen_LOD0
+    3300072: Silver_Queen_LOD1
+    3300074: Silver_Queen_LOD2
+    3300076: Silver_Rook_LOD0
+    4300000: Gold_King_LOD0
+    4300002: Gold_King_LOD1
+    4300004: Gold_King_LOD2
+    4300006: Gold_Queen_LOD0
+    4300008: Gold_Queen_LOD1
+    4300010: Gold_Queen_LOD2
+    4300012: Gold_Bishop_LOD0
+    4300014: Gold_Bishop_LOD1
+    4300016: Gold_Bishop_LOD2
+    4300018: Gold_Knight_LOD0
+    4300020: Gold_Knight_LOD1
+    4300022: Gold_Knight_LOD2
+    4300024: Gold_Rook_LOD0
+    4300026: Gold_Rook_LOD1
+    4300028: Gold_Rook_LOD2
+    4300030: Gold_Pawn_LOD0
+    4300032: Gold_Pawn_LOD1
+    4300034: Gold_Pawn_LOD2
+    4300036: Silver_King_LOD0
+    4300038: Silver_King_LOD1
+    4300040: Silver_King_LOD2
+    4300042: Silver_Queen_LOD0
+    4300044: Silver_Queen_LOD1
+    4300046: Silver_Queen_LOD2
+    4300048: Silver_Bishop_LOD0
+    4300050: Silver_Bishop_LOD1
+    4300052: Silver_Bishop_LOD2
+    4300054: Silver_Knight_LOD0
+    4300056: Silver_Knight_LOD1
+    4300058: Chess_normal_and_2nd_model_0024:Silver_Knight_LOD2
+    4300060: Silver_Rook_LOD0
+    4300062: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD1
+    4300064: Chess_normal_and_2nd_model_0024:Silver_Rook_LOD2
+    4300066: Silver_Pawn_LOD0
+    4300068: Silver_Pawn_LOD1
+    4300070: Silver_Pawn_LOD2
+    4300072: chessboard_Model2_LOD0
+    4300074: chessboard_Model2_LOD1
+    4300076: chessboard_Model2_LOD2
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chess_LOD0
+    second: {fileID: 2100000, guid: e3ef9af4aa7ecd541be8f7ed95d97ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chess_LOD1
+    second: {fileID: 2100000, guid: a05231a2e33c1b5408f92416c47335aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chess_LOD2
+    second: {fileID: 2100000, guid: 35d498345112a7448a9ace448c45a649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_Chesscoins_LOD1
+    second: {fileID: 2100000, guid: 5eee8aae8f86c7e46b0a320354dcf132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_Chesscoins_LOD2
+    second: {fileID: 2100000, guid: a9d1e09104b3f6b449dee0f4cd55239f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_chesscoins_LOD0
+    second: {fileID: 2100000, guid: 2c0fcafe9a9ff00469baae007b93c6f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver_Chesscoins_LOD2
+    second: {fileID: 2100000, guid: 117508655660b7b49af7acb70931d3a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver_chesscoins_LOD0
+    second: {fileID: 2100000, guid: bbcc4af9e03ac7640bb510d0dd5f8eef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Siver_Chesscoins_LOD1
+    second: {fileID: 2100000, guid: 4835c378328af454da23e5fb7c1f7332, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chesscoins_LOD0
+    second: {fileID: 2100000, guid: a31a88b92858adc43b2ec1194f317cc3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Model2_LOD0_Chessboard_Model2_LOD0_AlbedoTransparency
+    second: {fileID: 2800000, guid: 0e560f51abd01114e8889b1d78a1da29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Model2_LOD0_chesscoins_model1_LOD0_AlbedoTransparency
+    second: {fileID: 2800000, guid: b0c11d2783396c74487880122e974deb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Model2_LOD1_Chess_Model2_LOD1_AlbedoTransparency
+    second: {fileID: 2800000, guid: 50d59f676bd5baa45a1093b32d5589d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Model2_LOD2_chess_Model2_LOD3_AlbedoTransparency
+    second: {fileID: 2800000, guid: dfc391093ccab1643ac8902124c9ae46, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
