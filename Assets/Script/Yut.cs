@@ -20,44 +20,19 @@ public class Yut : MonoBehaviour
         BACK
     }
 
-    public static Stick ThrowYutStick()
-    {
-        return new System.Random().NextDouble() >= 0.611015470351657 ? Stick.FRONT : Stick.BACK;
-    }
+    public bool isBackMark = false;
+    public Stick stickResult = Stick.NONE;
 
-    public static Stick[] ThrowYut(out Result result, out int backDoIndex)
+    private Rigidbody rb = null;
+    public Rigidbody Rigid
     {
-        backDoIndex = Random.Range(0, 4);
-        if (Random.Range(0, 200) == 0) // 0.5% »Æ∑¸∑Œ ≥´
+        get
         {
-            result = Result.NAK;
-            return null;
+            rb ??= GetComponent<Rigidbody>();
+            return rb;
         }
-        var intResult = 0;
-        var isBackDo = false;
-        var yutList = new Stick[]
-        {
-            ThrowYutStick(),
-            ThrowYutStick(),
-            ThrowYutStick(),
-            ThrowYutStick()
-        };
-        for (int i = 0; i < 4; ++i)
-        {
-            var stick = yutList[i];
-            intResult += (int)stick;
-            if (stick == Stick.BACK && i == backDoIndex)
-            {
-                isBackDo = true;
-            }
-        }
-        result = isBackDo && intResult == 1 ? Result.BACK_DO : (Result)intResult;
-        return yutList;
     }
-
-    public float Tick = 0;
-    public bool IsBackMark = false;
-    public Stick StickResult = Stick.NONE;
+    public AudioSource yutThrow, yutFall;
 
     private void Update()
     {
@@ -67,14 +42,18 @@ public class Yut : MonoBehaviour
             return;
         }
 
-        if (Tick == -1) return;
-        Tick += Time.deltaTime;
-        if (Tick >= 2.5)
+        if (stickResult == Stick.NONE && transform.position.y < 2 && Rigid.velocity.magnitude <= 0.05)
         {
-            Tick = -1;
             var rotate = transform.up.normalized;
-            StickResult = rotate.y >= 0.1 ? Stick.FRONT : Stick.BACK;
-            //Debug.Log("Rotate: " + rotate + " Result: " + StickResult);
+            stickResult = rotate.y >= 0.5 ? Stick.FRONT : Stick.BACK;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Board"))
+        {
+            yutFall.Play();
         }
     }
 }
@@ -86,19 +65,19 @@ public static class ResultExtensions
         switch (result)
         {
             case Yut.Result.NAK:
-                return "≥´";
+                return "ÎÇô";
             case Yut.Result.BACK_DO:
-                return "µﬁµµ";
+                return "Îí∑ÎèÑ";
             case Yut.Result.MO:
-                return "∏";
+                return "Î™®";
             case Yut.Result.DO:
-                return "µµ";
+                return "ÎèÑ";
             case Yut.Result.GAE:
-                return "∞≥";
+                return "Í∞ú";
             case Yut.Result.GEOL:
-                return "∞…";
+                return "Í±∏";
             default:
-                return "¿∑";
+                return "Ïú∑";
         }
     }
 
